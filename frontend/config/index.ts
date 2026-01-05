@@ -4,6 +4,9 @@ export { CONTRACTS, SUPPORTED_CHAINS, DEFAULT_CHAIN_ID } from "./contracts";
 // Export ABIs
 export { AgentRegistryABI, AgentEscrowABI, ReputationManagerABI } from "./abis";
 
+// Import CONTRACTS for internal use
+import { CONTRACTS } from "./contracts";
+
 // Contract metadata
 export const CONTRACT_METADATA = {
     AgentRegistry: {
